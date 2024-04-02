@@ -7,5 +7,9 @@ cmake_minimum_required(VERSION 3.27.0-rc5)
 
 project(WindMill)
 
+enable_language(CXX)
+
 include("Projects/CPP/WindMill_CPP_Lib/CMakeLists.txt")
+include("Projects/CPP/WindMill_dLL/CMakeLists.txt")
+
 include("Projects/CPP/WindMill_CPP_Test/CMakeLists.txt")

@@ -28,4 +28,6 @@ target_compile_definitions(WindMill_CPP_Test PRIVATE
 # PRIVATE means that anything that includes WindMill_CPP_Test will not get access to WindMill_CPP_Lib
 target_link_libraries(WindMill_CPP_Test PRIVATE WindMill_CPP_Lib)
 
+target_link_libraries(WindMill_CPP_Test PRIVATE WindMill_Dll)
+
 message("Project: WindMill_CPP_Test")
